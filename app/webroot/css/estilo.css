@@ -1,0 +1,287 @@
+body{
+	background-color: #424856;
+}
+.bg_enviado{
+    background: #0c0;
+}
+.ancho_caja_anular{
+    width: 500px;
+}
+#mas_option{
+    //display: none;
+}
+
+#config_option{
+    display: none;
+}
+
+.no_visible{
+    display: none;
+}
+.caja_consumos{
+    width: 100%; 
+    height: 460px; 
+    max-height: 460px;
+    overflow-y: scroll;
+}
+.caja_consumos_descuento{
+    width: 100%; 
+    height: 100%; 
+    max-height: 460px;
+    overflow-y: scroll;
+}
+.btn_menu{
+    height: 60px;
+    font-size: 21px;
+    margin: 1px 1px 1px 1px;
+}
+
+.btn_margen{
+    margin: 1px 1px 1px 1px;
+}
+
+.th_price{
+    width: 10px;
+    margin: 1px 1px 1px 1px;
+}
+
+#contenido{
+	width: 100%;
+	margin: auto;
+}
+#capa_modificador{
+    
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+#close_modificadores {
+    padding: 5px;
+    z-index: 9999;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-270px;
+    margin-left:-450px;
+    z-index: 100;
+    background: #000000;
+}
+#modificadores {
+    padding: 5px;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-400px;
+    z-index: 100;
+    background: #000000;
+}
+#menu_izquierdo{
+	width: 15%;
+	float:left;
+}
+
+#central{
+	background-color:#2f96b4;
+	width: 100%;
+        height: 100%;
+        min-height: 500px;
+	float: left;
+}
+.central_izquierdo{
+	width:20%;
+	background-color: #002a80;
+	float:left;
+        min-height: 630px;
+        padding: 2px;
+        border-left: 5px;
+        border-left-color: #000; 
+}
+.central_derecho{
+	width:80%;
+        padding: 5px;
+	background-color: #7ACDBD;
+	float:left;
+        min-height: 630px;
+}
+
+.config_boby{
+	width:80%;
+        margin: 0 auto;
+        padding: 5px;
+	background-color: #7ACDBD;
+        min-height: 630px;
+}
+
+.nopadding{
+        padding: 2px;
+}
+
+
+.panel-uno{
+	width:50%;
+        padding: 5px;
+	background-color: #0099cc;
+	float:left;
+        min-height: 50px;
+}
+.panel-dos{
+        padding: 5px;
+	width:50%;
+	background-color: #2f96b4;
+	float:left;
+        min-height: 50px;
+}
+
+.pay-panel-uno{
+	width:30%;
+        padding: 5px;
+	float:left;
+        min-height: 50px;
+}
+
+.pay-panel-dos{
+        padding: 5px;
+	width:70%;
+	float:left;
+        min-height: 50px;
+}
+
+.panel-uno-pedido{
+	width:50%;
+	background-color: #0099cc;
+	float:left;
+        min-height: 50px;
+}
+.panel-dos-pedido{
+	width:50%;
+	background-color: #2f96b4;
+	float:left;
+        min-height: 50px;
+}
+
+
+.central_izquierdo_pedido{
+	width:25%;
+        background-color: #ffffff;
+	float:left;
+        min-height: 500px;
+}
+.central_derecho_pedido{
+	width:60%;
+	background-color: #7ACDBD;
+	float:left;
+        min-height: 500px;
+}
+
+.menu_pedido{
+	width:15%;
+	background-color: #000000;
+	float:left;
+        min-height: 500px
+}
+
+.menu_derecho_flotante{
+	width:100px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        float: left;
+	background-color: #7ACDBD;
+        min-height: 500px;
+}
+
+
+
+.split_panel_uno{
+	width:60%;
+        background-color: #cccccc;
+	float:left;
+        min-height: 500px;
+}
+.split_panel_dos{
+	width:40%;
+	float:left;
+
+}
+
+
+.price_input {
+    width: 365px;
+}
+
+
+.numeric_pad {
+    width: 365px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.blockeado {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background: red;
+    float: right;
+}
+.block_vertical{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background: red;
+    float: right;
+    height: 170px;
+}
+
+.block_horizontal {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background: red;
+    float: right;
+    width: 170px;
+}
+.numeric_button{
+    width: 80px; 
+    height: 80px;
+}
+.numeric_button_land{
+    width: 170px; 
+    height: 80px;
+}
+.numeric_button_vert{
+    width: 80px; 
+    height: 170px;
+}
+
+.capa_pad_numeric{
+    
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background:rgba(1,0,0,0);
+    visibility: hidden;
+}
+
+.capa_pad_numeric .pad{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background: red;
+    width: 400px;
+}

@@ -1,0 +1,1 @@
+<?php echo $this->element('tabla_consumos', array("consumos"=>$consumo));?>

@@ -1,0 +1,464 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-07-14 20:08+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/UsersController.php:27
+msgid "Usuário o contraseña inválidos, intente nuevamente"
+msgstr "Invalid username or password, try again"
+
+#: Controller/UsersController.php:45;77;113
+msgid "Usuário inválido"
+msgstr "Invalid user"
+
+#: Controller/UsersController.php:60;92
+msgid "Usuario guardado com éxito"
+msgstr "The user has been saved"
+
+#: Controller/UsersController.php:97
+msgid "Imposible guardar usuário. Intente nuevamente."
+msgstr "The user could not be saved. Please, try again."
+
+#: Controller/UsersController.php:118
+msgid "Usuário eliminado"
+msgstr "User deleted"
+
+#: Controller/UsersController.php:122
+msgid "User was not deleted"
+msgstr "Imposíble eliminar usuário"
+
+#: Controller/UsersController.php:157
+msgid "Accion inválida"
+msgstr "Invalid action"
+
+#: Controller/UsersController.php:206
+msgid "Recordar clave - "
+msgstr "Remember password - "
+
+#: Controller/UsersController.php:228
+msgid "Link inválido"
+msgstr "Link inválido"
+
+#: View/Elements/flash_fail.ctp:3
+msgid "Error!"
+msgstr "Error!"
+
+#: View/Elements/flash_success.ctp:3
+msgid "Exito!"
+msgstr "Success!"
+
+#: View/Elements/form_login.ctp:22
+#: View/Elements/form_users.ctp:26
+#: View/Users/home.ctp:14
+msgid "Usuário"
+msgstr "Username"
+
+#: View/Elements/form_login.ctp:23
+#: View/Elements/form_users.ctp:36
+msgid "Clave"
+msgstr "Password"
+
+#: View/Elements/form_login.ctp:34
+#: View/Users/remember_password.ctp:24
+msgid "¿Olvido su clave?"
+msgstr "Forgot your password?"
+
+#: View/Elements/form_login.ctp:34
+#: View/Users/remember_password.ctp:31
+msgid "Recordar mi clave"
+msgstr "Remember my password"
+
+#: View/Elements/form_users.ctp:44
+msgid "Email"
+msgstr "Email"
+
+#: View/Elements/form_users.ctp:49
+msgid "Administrador"
+msgstr "Admin"
+
+#: View/Elements/form_users.ctp:49
+msgid "Autor"
+msgstr "Author"
+
+#: View/Elements/form_users.ctp:56
+#: View/Users/change_password.ctp:50
+msgid "Enviar"
+msgstr "Submit"
+
+#: View/Emails/html/remember_password.ctp:3
+msgid "Registrar clave nueva"
+msgstr "Register new password"
+
+#: View/Layouts/default.ctp:49
+#: View/Users/register.ctp:2
+msgid "Registrar"
+msgstr "Register"
+
+#: View/Users/change_password.ctp:1
+msgid "Change password"
+msgstr "Alterar senha"
+
+#: View/Users/change_password.ctp:34
+msgid "New password"
+msgstr "Nova senha"
+
+#: View/Users/change_password.ctp:42
+msgid "Confirm new password"
+msgstr "Confirmar nova senha"
+
+#: View/Users/home.ctp:6
+msgid "You are logged in"
+msgstr "Você está logado"
+
+#: View/Users/home.ctp:8
+msgid "All Users"
+msgstr "Todos usuários"
+
+#: View/Users/home.ctp:15
+msgid "Role"
+msgstr "Regra"
+
+#: View/Users/home.ctp:26
+msgid "View"
+msgstr "Visualizar"
+
+#: View/Users/home.ctp:27
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Users/home.ctp:28
+msgid "Delete"
+msgstr "Deletar"
+
+#: View/Users/register.ctp:6
+msgid "Add User"
+msgstr "Adicionar usuário"
+
+#: View/Users/remember_password.ctp:28
+msgid "E-mail"
+msgstr "E-mail"
+
+#: Model/User.php:validation for field username
+msgid "A username is required."
+msgstr "O usuário é obrigatório."
+
+#: Model/User.php:validation for field username;validation for field email
+msgid "This user already exists."
+msgstr "Este usuário já existe"
+
+#: Model/User.php:validation for field email
+msgid "Invalid email."
+msgstr "Email inválido."
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr "A senha é obrigatória"
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr "Por favor informe uma regra válida"
+
+#: View/Errors/error400.ctp:21
+#: View/Errors/error500.ctp:21
+msgid "Error"
+msgstr "Error"
+
+#: View/Errors/error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr "O endereço %s não foi encontrado"
+
+#: View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr "Erro interno."
+
+#: webroot/test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr "As configurações de debug não permitem o acesso a esta url."
+
+#: webroot/test.php:87
+msgid "Iniciar sesión"
+msgstr "Login"
+
+#: webroot/default.php:77
+msgid "Cerrar sesión"
+msgstr "Logout"
+
+#: webroot/default.php:55
+msgid "Principal"
+msgstr "Home"
+
+#: webroot/default.php:55
+msgid "Empleados"
+msgstr "staff"
+
+#: webroot/default.php:55
+msgid "Configuración"
+msgstr "Configuration"
+
+#: webroot/default.php:55
+msgid "Descripcion de area"
+msgstr ""
+
+#: ingredientes
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Precio"
+msgstr "Price"
+
+msgid "Stock"
+msgstr "Stock"
+
+
+msgid "Imagen"
+msgstr "Image " 
+
+msgid "Producto"
+msgstr "Product"
+
+msgid "Ingredientes"
+msgstr "Ingredients"
+
+msgid "Agregar Ingredientes"
+msgstr "Add Ingredients"
+
+msgid "Vista"
+msgstr "View"
+msgid "Editar"
+msgstr "Edit"
+msgid "Eliminar"
+msgstr "Delete"
+
+msgid "Agregar"
+msgstr "Add"
+
+msgid "Acciones"
+msgstr "Actions"
+
+msgid "Lista Ingredientes"
+msgstr "List Ingredients"
+
+#: producto
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Precio"
+msgstr "Price"
+
+
+msgid "Stock"
+msgstr "Stock"
+
+msgid "Imagen"
+msgstr "Image"
+
+msgid "Area Recepcion"
+msgstr "Reception Area"
+
+
+msgid "Subcategoria"
+msgstr "Subcategory"
+
+msgid "Lista Productos"
+msgstr "List Products"
+
+msgid "Agregar Productos"
+msgstr "Add Products"
+
+msgid "Productos"
+msgstr "Products"
+
+#: clientes
+
+msgid "Nit"
+msgstr "Nit"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Apellido"
+msgstr "Last Name"
+
+msgid "Razon Social"
+msgstr "Bussines Name"
+
+
+msgid "Direccion"
+msgstr "Address"
+
+msgid "Telefono"
+msgstr "Telephone"
+
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Cliente"
+msgstr "Client"
+
+msgid "Agregar Cliente"
+msgstr "Add Client"
+
+msgid "Lista Cliente"
+msgstr "List Clients"
+msgid "Clientes"
+msgstr "Clients"
+
+#: mesas
+
+msgid "Numero de Sillas"
+msgstr "Number of Chairs"
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Lista Mesas"
+msgstr "List Tables"
+
+msgid "Area de Ubicacion"
+msgstr "Location Area"
+
+msgid "Mesa"
+msgstr "Table"
+msgid "Mesas"
+msgstr "Tables"
+msgid "Agregar Mesa"
+msgstr "Add Table"
+
+#: areas
+
+msgid "Descripcion"
+msgstr "Description"
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Agregar Area"
+msgstr "Add Area"
+
+msgid "Areas"
+msgstr "Area"
+
+msgid "Lista Areas"
+msgstr "List Area"
+
+#: OTROS
+
+msgid "Configuracion"
+msgstr "Configuration"
+
+
+msgid "Configuracion"
+msgstr "Configuration"
+
+msgid "Categoria"
+msgstr ""
+msgid "Imagen"
+msgstr ""
+
+#: cuentas
+
+msgid "Cuentas"
+msgstr ""
+
+msgid "Tipo Pago"
+msgstr ""
+msgid "Monto Asignado"
+msgstr ""
+
+
+msgid "Estados"
+msgstr ""
+
+msgid "Personal"
+msgstr ""
+msgid "CI"
+msgstr ""
+msgid "Materno"
+msgstr ""
+
+msgid "Fecha de Nacimiento"
+msgstr ""
+msgid "Rol"
+msgstr ""
+msgid "Roles"
+msgstr ""
+msgid "Cargo"
+msgstr ""
+msgid "Sueldo"
+msgstr ""
+
+msgid "Subcategorias"
+msgstr ""
+
+
+msgid "Introduzca Los Datos"
+msgstr ""
+
+msgid "Datos Editables"
+msgstr ""
+
+msgid "Crear Nuevo"
+msgstr ""
+msgid "No se pudo registrar los datos, intente nuevamente. "
+msgstr ""
+
+msgid "Registro agregado exitosamente"
+msgstr ""
+msgid "Ocurrio un error."
+msgstr ""
+msgid "Registro eliminado "
+msgstr ""
+
+msgid "No se pudo eliminar el registro"
+msgstr ""
+msgid "Registro invalido"
+msgstr ""
+msgid "Registro modificado exitosamente"
+msgstr ""
+msgid "Registro no modificado, intente nuevamente."
+msgstr ""
+
+msgid "Cantidad"
+msgstr ""
+
+
+
+
+
+msgid "Detalle de las Categorias"
+msgstr ""
+msgid "Detalle de las Areas"
+msgstr ""
+msgid "Detalle de las Cuentas"
+msgstr ""
+msgid "Detalle de las Clientes"
+msgstr ""
+msgid "Detalle de las Estados"
+msgstr ""
+msgid "Detalle de los Ingredientes"
+msgstr ""
+msgid "Detalle de las Mesas"
+msgstr ""
+msgid "Detalle de los Roles"
+msgstr ""

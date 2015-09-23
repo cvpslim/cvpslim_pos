@@ -1,0 +1,42 @@
+.center{
+	text-align: center;
+}
+
+.change-themes-list .active{
+	font-weight: bold;
+}
+
+.strong{
+	font-weight: bold;
+}
+
+/* Modal outline fix */
+*:focus,
+a:focus{
+	outline: none;
+}
+.estacion_contenido{
+    width: 100%;
+    min-width: 800px;
+    background-color: #EBD563;
+    min-height: 768px;
+}
+.estacion_contenido .menu_izquierdo{
+	width:15%;
+	background-color: #EBD563;
+	float:left;
+        min-height: 100%;
+}
+.estacion_contenido .contenido_centro{
+	width:85%;
+	background-color: #7ACDBD;
+	float:left;
+        min-height: 100%;
+}
+
+.error-message{
+    color: #cd0200;
+    font-family: Verdana,Tahoma,Segoe,sans-serif;
+    font-size: 12px;
+    
+}
